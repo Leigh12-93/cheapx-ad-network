@@ -139,6 +139,9 @@ export default function DashboardPage() {
           </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-text-dim">{businessName}</span>
+            <Link href="/dashboard/billing" className="text-text-dim hover:text-text">
+              <DollarSign className="h-4 w-4" />
+            </Link>
             <Link href="/dashboard/settings" className="text-text-dim hover:text-text">
               <Settings className="h-4 w-4" />
             </Link>
